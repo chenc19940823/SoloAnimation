@@ -15,6 +15,6 @@ class Charizard {
 
     draw(ctx){
 
-        this.animation.drawFrame(this.game.clockTick,ctx, 440, 429, 2);
+        this.animation.drawFrame(this.game.clockTick,ctx, 500, 530, 2);
     };
 };
