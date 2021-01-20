@@ -15,6 +15,6 @@ class Red {
 
     draw(ctx){
 
-        this.animation.drawFrame(this.game.clockTick,ctx, 370, 450, 1.3);
+        this.animation.drawFrame(this.game.clockTick,ctx, 440, 550, 1.3);
     };
 };
