@@ -2,8 +2,8 @@ var gameEngine = new GameEngine();
 
 var ASSET_MANAGER = new AssetManager();
 
-ASSET_MANAGER.queueDownload("./sprites/charizardX.png");
-ASSET_MANAGER.queueDownload("./sprites/red.png");
+ASSET_MANAGER.queueDownload("./sprites/charizardX.PNG");
+ASSET_MANAGER.queueDownload("./sprites/red.PNG");
 
 ASSET_MANAGER.downloadAll(function () {
 	var canvas = document.getElementById('gameWorld');
